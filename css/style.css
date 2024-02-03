@@ -1,0 +1,878 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, ul, li, span{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+}
+
+.container{
+    max-width: 1208px;
+    margin: 0 auto;
+}
+
+.heading h4{
+    text-align: center;
+    color: var(--Primary-Black);
+    font-family: var(--Sora);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+}
+
+.heading h4 span{
+    color: var(--Primary-Black);
+    font-family: var(--Sora);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+}
+
+.p-text h5{
+    color: var(--Primary-White);
+    font-family: var(--Sora);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+    margin-bottom: 28px;
+}
+
+.p-text span{
+    color: var(--Primary-White);
+    font-family: var(--Sora);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.64px;
+    margin-bottom: 28px;
+}
+
+.p-text p{
+    width: 582px;
+    color: #71717A;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 28px;
+}
+
+.p-text i{
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--Primary-White);
+}
+
+:root{
+    --Sora: 'Sora', sans-serif;
+    --Primary-Black: #000000;
+    --Primary-White: #FFFFFF;
+}
+/*=====================================*/
+        /*--Navbar CSS Start--*/
+/*=====================================*/
+.navbar{
+    padding: 24px;
+    background: var(--Primary-White);
+}
+
+.navbar .navbar-brand{
+    display: flex;
+    align-items: center;
+    color: var(--Primary-Black);
+    font-family: var(--Sora);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
+
+.navbar .navbar-brand i{
+    font-size: 40px;
+    margin-right: 12px;
+}
+
+.navbar .navbar-nav{
+    column-gap: 32px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #71717A;
+    font-family: var(--Sora);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
+
+.navbar .navbar-nav .nav-item .active{
+    color: #000000;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--Primary-Black);
+}
+
+.navbar .button a{
+    padding: 16px 20px;
+    border-radius: 4px;
+    background: var(--Primary-Black);
+    color: var(--Primary-White);
+    font-family: var(--Sora);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.navbar .button a:hover{
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.navbar .button a i{
+    font-size: 20px;
+    margin-left: 8px;
+}
+/*=====================================*/
+        /*--Navbar CSS End--*/
+/*=====================================*/
+
+/*=====================================*/
+    /*--Banner-Part CSS Start--*/
+/*=====================================*/
+#banner_part{
+    padding: 60px 0 36px 0;
+}
+
+#banner_part .text-section h1{
+    margin-top: 130px;
+    color: var(--Primary-Black);
+    font-family: var(--Sora);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+}
+
+#banner_part .text-section h1 .i{
+    color: var(--Primary-Black);
+    font-family: var(--Sora);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+}
+
+#banner_part .text-section h1 .ii{
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: var(--Sora);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+}
+
+#banner_part .text-section p{
+    margin-top: 32px;
+    width: 515px;
+    color: #71717A;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+#banner_part .icon{
+    margin-top: 98px;
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+
+#banner_part .icon a{
+    padding: 16px 16px;
+    border-radius: 4px;
+    border: 2px solid var(--Primary-Black);
+    color: var(--Primary-Black);
+}
+
+#banner_part .icon a i{
+    text-align: center;
+    font-size: 20px;
+}
+
+#banner_part .icon a:hover{
+    background: var(--Primary-Black);
+    color: var(--Primary-White);
+}
+
+#banner_part .frame{
+    position: relative;
+}
+
+#banner_part .frame .i{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*=====================================*/
+    /*--Banner-Part CSS End--*/
+/*=====================================*/
+
+/*=====================================*/
+    /*--Skills-Part CSS Start--*/
+/*=====================================*/
+#skills_part{
+    padding: 60px 0;
+}
+
+#skills_part .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills_part .container .heading h4{
+    margin: 20px 0 80px 0;
+}
+
+#skills_part .col-xl-3:first-child .main:first-child{
+    margin-bottom: 40px;
+}
+
+#skills_part .col-xl-3:first-child .main:last-child{
+    margin-bottom: 40px;
+}
+
+#skills_part .col-xl-3:nth-child(2) .main:first-child{
+    margin-bottom: 40px;
+}
+
+#skills_part .col-xl-3:nth-child(2) .main:last-child{
+    margin-bottom: 40px;
+}
+
+#skills_part .col-xl-3:nth-child(3) .main:first-child{
+    margin-bottom: 40px;
+}
+
+#skills_part .col-xl-3:nth-child(3) .main:last-child{
+    margin-bottom: 40px;
+}
+
+#skills_part .col-xl-3:last-child .main:first-child{
+    margin-bottom: 40px;
+}
+
+#skills_part .col-xl-3:last-child .main:last-child{
+    margin-bottom: 40px;
+}
+
+#skills_part .container .main{
+    width: 186px;
+    height: 186px;
+    transition: 0.6s linear;
+    margin-left: 71.5px;
+    margin-bottom: 40px;
+}
+
+#skills_part .container .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 186px;
+    height: 186px;
+    padding: 24px;
+    border-radius: 4px;
+    border: 2px solid var(--Primary-Black);
+    background: var(--Primary-White);
+}
+
+#skills_part .container .main:hover .item{
+    background: var(--Primary-Black);
+}
+
+#skills_part .container .main:hover i{
+    color: var(--Primary-White);
+}
+
+#skills_part .container .main:hover p{
+    color: var(--Primary-White);
+}
+
+#skills_part .container .item i{
+    font-size: 56px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+#skills_part .container .item p{
+    color: var(--Primary-Black);
+    text-align: center;
+    font-family: var(--Sora);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
+/*=====================================*/
+    /*--Skills-Part CSS End--*/
+/*=====================================*/
+
+/*=====================================*/
+    /*--Experience-Part CSS Start--*/
+/*=====================================*/
+#experience_part{
+    padding: 80px 0 100px 0;
+    background: var(--Primary-Black);
+}
+
+#experience_part .container .heading h4{
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+#experience_part .container .heading h4 span{
+    color: #FFFFFF;
+}
+
+#experience_part .card{
+    max-width: 1168px;
+    margin: 0 auto;
+    padding: 30px 24px;
+    border-radius: 10px;
+    border: 1px solid #71717A;
+    background: var(--Primary-Black);
+    transition: 0.6s linear;
+}
+
+#experience_part .card:first-child{
+    margin-bottom: 32px;
+}
+
+#experience_part .card:nth-child(2){
+    margin-bottom: 32px;
+}
+
+#experience_part .card:hover{
+    background: #27272A;
+}
+
+#experience_part .card .content{
+    display: flex;
+    align-items: center;
+}
+
+#experience_part .card .content .google, .youtube, .apple{
+    width: 32px;
+    height: 32px;
+}
+
+#experience_part .card .content span{
+    color: var(--Primary-White);
+    text-align: center;
+    font-family: var(--Sora);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.48px;
+    margin-left: 30px;
+}
+
+#experience_part .card .content p{
+    color: #D4D4D8;
+    text-align: center;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    margin-left: 504px;
+}
+
+#experience_part .card:nth-child(2) .content p{
+    margin-left: 549px;
+}
+
+#experience_part .card:last-child .content p{
+    margin-left: 493px;
+}
+
+#experience_part .card p{
+    margin-top: 30px;
+    color: #D4D4D8;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+/*=====================================*/
+    /*--Experience-Part CSS End--*/
+/*=====================================*/
+
+/*=====================================*/
+    /*--About-Part CSS Start--*/
+/*=====================================*/
+#about_part{
+    padding: 60px 0;
+}
+
+#about_part .heading h4{
+    text-align: left;
+    margin: 20px 0 40px 0;
+}
+
+#about_part .i, .ii, .iii{
+    width: 610px;
+    color: #71717A;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+#about_part .i, .ii{
+    margin-bottom: 20px;
+}
+/*=====================================*/
+    /*--About-Part CSS End--*/
+/*=====================================*/
+
+/*=====================================*/
+    /*--Project-Part CSS Start--*/
+/*=====================================*/
+#project_part{
+    padding: 60px 0;
+    background: var(--Primary-Black);
+}
+
+#project_part img{
+    transition: 0.6s linear;
+}
+
+#project_part img:hover{
+    box-shadow: 9px 13px 20px -3px rgba(113,113,122,0.75);
+}
+
+#project_part .container .heading h4{
+    color: var(--Primary-White);
+}
+
+#project_part .container .heading h4 span{
+    color: var(--Primary-White);
+}
+
+#project_part .container .col-xl-6:first-child .p-img:first-child{
+    margin-top: 60px;
+}
+
+#project_part .container .col-xl-6:first-child .p-text:nth-child(2){
+    margin-top: 106px;
+}
+
+#project_part .container .col-xl-6:first-child .p-img:nth-child(3){
+    margin-top: 106px;
+    margin-bottom: 20px;
+}
+
+#project_part .container .col-xl-6:last-child .p-text:first-child{
+    margin-top: 150px;
+}
+
+#project_part .container .col-xl-6:last-child .p-img:nth-child(2){
+    margin-top: 150px;
+}
+
+#project_part .container .col-xl-6:last-child .p-text:nth-child(3){
+    margin-top: 147px;
+}
+/*=====================================*/
+    /*--Project-Part CSS End--*/
+/*=====================================*/
+
+/*=====================================*/
+    /*--Testimonal-Part CSS Start--*/
+/*=====================================*/
+#testimonial_part{
+    padding: 60px 0;
+}
+
+#testimonial_part .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 29px;
+}
+
+#testimonial_part .container .heading h4{
+    margin: 20px 0 80px 0;
+}
+
+#testimonial_part .card-item{
+    padding: 40px 40px;
+    border-radius: 20px;
+    background: var(--Primary-White);
+    box-shadow: 0px 8px 16px -6px rgba(24, 39, 75, 0.08), 0px 6px 8px -6px rgba(24, 39, 75, 0.12);
+    transition: 0.4s linear;
+    margin-bottom: 40px;
+}
+
+#testimonial_part .card-item .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#testimonial_part .card-item .content .profile{
+    width: 96px;
+    height: 96px;
+}
+
+#testimonial_part .card-item .content .icon{
+    position: absolute;
+    top: 63px;
+    left: 172px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid var(--Primary-Black);
+    font-size: 15px;
+    background: var(--Primary-Black);
+    color: var(--Primary-White);
+    transition: 0.4s linear;
+}
+
+#testimonial_part .card-item:hover{
+    background: var(--Primary-Black);
+}
+
+#testimonial_part .card-item:hover .icon{
+    background: var(--Primary-White);
+    color: var(--Primary-Black);
+    border: 0;
+}
+
+#testimonial_part .card-item:hover .content p, hr, span, h6{
+    color: var(--Primary-White);
+}
+
+#testimonial_part .card-item:hover .content hr{
+    background: var(--Primary-White);
+}
+
+#testimonial_part .card-item:hover .content a{
+    color: var(--Primary-White);
+}
+
+#testimonial_part .card-item:hover .content h6{
+    color: var(--Primary-White);
+}
+
+#testimonial_part .card-item .content p{
+    width: 290px;
+    margin-top: 24px;
+    color: #404040;
+    text-align: center;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.32px;
+}
+
+#testimonial_part .card-item .content hr{
+    width: 120px;
+    height: 2px;
+    background: var(--Primary-Black);
+    margin-top: 24px;
+}
+
+#testimonial_part .card-item .content a{
+    color: #404040;
+    text-align: center;
+    font-family: var(--Sora);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    margin-top: 24px;
+}
+
+#testimonial_part .card-item .content h6{
+    color: #71717A;
+    text-align: center;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    margin-top: 24px;
+}
+/*=====================================*/
+    /*--Testimonial-Part CSS End--*/
+/*=====================================*/
+
+/*=====================================*/
+    /*--Form-Part CSS Start--*/
+/*=====================================*/
+#form_part{
+    padding: 60px 0;
+}
+
+#form_part form{
+    margin: 20px 0;
+}
+
+#form_part form button{
+    display: inline-block;
+}
+
+#form_part .input-i{
+    width: 500px;
+    height: 56px;
+    padding: 16px 24px;
+    border-radius: 4px;
+    border: 1.4px solid var(--Primary-Black);
+    color: #71717A;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    margin-bottom: 20px;
+}
+
+#form_part .input-ii{
+    width: 500px;
+    height: 140px;
+    padding: 16px 24px;
+    border-radius: 4px;
+    border: 1.4px solid var(--Primary-Black);
+}
+
+#form_part .input-ii::placeholder{
+    width: 452px;
+    height: 108px;
+    color: #71717A;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+}
+
+#form_part button{
+    display: block;
+    margin-top: 20px;
+    padding: 16px 20px;
+    border-radius: 4px;
+    background: var(--Primary-Black);
+    color: var(--Primary-White);
+    font-family: var(--Sora);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    outline: 0;
+    border: 0;
+    transition: 0.6s linear;
+}
+
+#form_part button:hover{
+    background: #2f2f30;
+}
+
+#form_part form a{
+    padding: 16px 16px;
+    border-radius: 4px;
+    border: 2px solid var(--Primary-Black);
+    color: var(--Primary-Black);
+    transition: 0.4s linear;
+    margin-left: 20px;
+}
+
+#form_part form a i{
+    text-align: center;
+    font-size: 20px;
+}
+
+#form_part form a:hover{
+    background: var(--Primary-Black);
+    color: var(--Primary-White);
+}
+
+#form_part .text-section{
+    margin-top: 86px;
+}
+
+#form_part .text-section h4{
+    color: var(--Primary-Black);
+    font-family: var(--Sora);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+}
+
+#form_part .text-section h4 span{
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: var(--Sora);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+}
+
+#form_part .text-section p{
+    margin: 20px 0 40px 0;
+    width: 608px;
+    color: #71717A;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+#form_part .contact a{
+    color: var(--Primary-Black);
+    font-family: var(--Sora);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.56px;
+}
+
+#form_part .contact a:first-child{
+    margin-bottom: 16px;
+}
+/*=====================================*/
+    /*--Form-Part CSS End--*/
+/*=====================================*/
+
+/*=====================================*/
+    /*--Footer-Part CSS Start--*/
+/*=====================================*/
+footer{
+    padding: 24px 0;
+    background: var(--Primary-Black);
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container .logo a{
+    display: flex;
+    align-items: center;
+    color: var(--Primary-White);
+    font-family: var(--Sora);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
+
+footer .container .logo a i{
+    font-size: 40px;
+    margin-right: 12px;
+}
+
+footer .container .copy span{
+    color: var(--Primary-White);
+    text-align: right;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    margin-bottom: 12px;
+}
+
+footer .container .copy p{
+    color: var(--Primary-White);
+    text-align: right;
+    font-family: var(--Sora);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+}
+/*=====================================*/
+    /*--Footer-Part CSS End--*/
+/*=====================================*/

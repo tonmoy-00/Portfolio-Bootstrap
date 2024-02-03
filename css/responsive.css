@@ -1,0 +1,149 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /*---------------------------*/
+        /*=Navbar Start=*/
+        *{
+            box-sizing: border-box;
+            outline: 0;
+            border: 0;
+        }
+        .navbar {
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+        }
+        .navbar .navbar-brand i {
+            font-size: 30px;
+            margin-right: 5px;
+        }
+        .navbar .navbar-brand {
+            font-size: 20px;
+            line-height: 22px;
+        }
+        .navbar-toggler {
+            outline: none;
+            box-shadow: none !important;
+        }
+
+        .navbar-toggler:hover {
+            outline: none;
+            box-sizing: border-box;
+            border: 2px solid #000000;
+            box-shadow: none;
+        }
+        .navbar .navbar-nav {
+            padding-top: 15px;
+            column-gap: 30px;
+            text-align: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .navbar .button{
+            display: flex;
+            justify-content: center;
+        }
+        .navbar .navbar-nav .nav-item .nav-link{
+            position: relative;
+        }
+        .navbar:hover i{
+            display: block;
+        }
+        /*=Navbar End=*/
+    /*---------------------------*/
+
+    /*---------------------------*/
+        /*=Banner-Part Start=*/
+        #banner_part .text-section h1 .i {
+            font-size: 40px;
+            line-height: 44px;
+        }
+        #banner_part .text-section h1 {
+            margin-top: 265px;
+        }
+        #banner_part .text-section p {
+            margin-top: 10px;
+            width: auto;
+        }
+        #banner_part .icon {
+            margin-top: 15px;
+            justify-content: center;
+            column-gap: 22px;
+        }
+        #banner_part .frame .i {
+            position: absolute;
+            top: -830px;
+            right: 20px;
+            width: 100%;
+        }
+        /*=Banner-Part End=*/
+    /*---------------------------*/
+
+    /*---------------------------*/
+        /*=Skills-Part Start=*/
+        #skills_part {
+            padding: 0 0;
+        }
+        #skills_part .container .heading h4{
+            margin: 20px 0 20px 0;
+        }
+        /*=Skills-Part End=*/
+     /*---------------------------*/
+
+    /*---------------------------*/
+        /*=Experience-Part Start=*/
+        #experience_part {
+            padding: 60px 0 60px 0;
+        }
+        .heading h4 {
+            font-size: 40px;
+            line-height: 45px;
+        }
+        .heading h4 span {
+            font-size: 40px;
+            line-height: 45px;
+        }
+        #experience_part .container .heading h4{
+            margin-bottom: 60px;
+        }
+        /*=Experience-Part End=*/
+    /*---------------------------*/
+
+    /*---------------------------*/
+        /*=About-Part End=*/
+        #about_part img{
+            width: 100%;
+        }
+        #about_part .heading h4 {
+            text-align: left;
+            margin: 20px 0 20px 0;
+        }
+        #about_part .i, .ii, .iii {
+            width: auto;
+        }
+        /*=About-Part End=*/
+    /*---------------------------*/
+
+    /*---------------------------*/
+        /*=Project-Part Start=*/
+        #project_part .container .col-xl-6:first-child .p-img:first-child {
+            margin-top: 30px;
+        }
+        #project_part .p-i, .p-ii, .p-iii {
+            width: 100%;
+            cursor: pointer;
+        }
+        #project_part .container .col-xl-6:first-child .p-text:nth-child(2) {
+            margin-top: 25px;
+        }
+        .p-text p {
+            width: auto;
+        }
+        #project_part .container .col-xl-6:first-child .p-img:nth-child(3) {
+            margin-top: 40px;
+        }
+        #project_part .container .col-xl-6:last-child .p-text:nth-child(3) {
+            margin-top: 25px;
+        }
+        /*=Project-Part End=*/
+    /*---------------------------*/
+}
